@@ -6,7 +6,6 @@ public class ConnectionFactory {
     private static volatile ConnectionFactory instance;
     private final Connection connection;
 
-
     private ConnectionFactory(){
         try {
             Class.forName(driver);
