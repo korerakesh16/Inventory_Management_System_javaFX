@@ -15,6 +15,7 @@ public class ConnectionFactory {
         }
     }
 
+    
     public static ConnectionFactory getInstance(){
         ConnectionFactory result = instance;
         if(result == null){
