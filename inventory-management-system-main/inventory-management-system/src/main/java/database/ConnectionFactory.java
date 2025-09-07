@@ -1,7 +1,6 @@
 package database;
 import java.sql.*;
 
-
 public class ConnectionFactory {
     private static final String driver = "com.mysql.cj.jdbc.Driver";
     private static final String url = "jdbc:mysql://localhost:3306/inventory_db";
