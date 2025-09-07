@@ -14,7 +14,7 @@ public class ConnectionFactory {
             throw new RuntimeException(e);
         }
     }
-    
+
     
     public static ConnectionFactory getInstance(){
         ConnectionFactory result = instance;
